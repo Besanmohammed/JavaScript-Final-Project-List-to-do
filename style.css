@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(57, 105, 142);
+    color: white;
+    min-height: 100vh;
+}
+.header{
+    font-size: 24px;
+}
+.header, .form{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input,
+.form button{
+    padding: 14px;
+    padding-left: 16px;
+    font-size: 24px;
+    border: none;
+    border-radius: 24px;
+}
+.form button{
+    color: rgb(38, 16, 200);
+    background-color: white;
+    cursor: pointer;
+    margin-left: 14px;
+}
+.form button:hover{
+    color: white;
+    background: rgb(38, 16, 200);
+}
+.bxs-folder-plus{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.containerToDo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listToDo{
+    min-width: 30%;
+    list-style: none;
+}
+.todo{
+    margin: 8px;
+    padding-left: 8px;
+    background: white;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo li{
+    flex: 1;
+}
+.todo-item{
+    padding: 0 8px;
+}
+.bxs-message-square-x,
+.bxs-badge-check{
+    pointer-events: none;
+}
+.todo.completed li{
+    text-decoration: line-through;
+}
+.selectTodo{
+    border: none;
+}
+.select{
+    margin: 16px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.selectTodo{
+    color: blue;
+    width: 160px;
+    height: 52px;
+    padding: 16px;
+}
+.select::after{
+    content: "▼";
+    position: absolute;
+    color: white;
+    background: blue;
+    top: 0;
+    right: 0;
+    padding: 18px;
+    pointer-events: none;
+}
+.select:hover::after{
+    background: white;
+    color: blue;
+}
+.bxs-message-square-x{
+    color: red;
+    font-size: 26px;
+}
+.bxs-check-circle{
+    color: green;
+    font-size: 26px;
+}
+.btn-complete,
+.btn-delete{
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+.listItemTodo{
+    margin: 14px;
+}
+.todo{
+    border-radius: 16px;
+    width: 400px;
+    height: 53px
+}
