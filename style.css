@@ -3,9 +3,20 @@
     padding: 0;
 }
 body{
-    background-color: rgb(57, 105, 142);
+    background: linear-gradient(to right, #33455e, #4e5f95);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container-div{
+    width: 50%;
+    background:linear-gradient(to right, #5b70a1, #888a8c);;
+    border-radius: 20px;
 }
 .header{
     font-size: 24px;
@@ -25,14 +36,14 @@ body{
     border-radius: 24px;
 }
 .form button{
-    color: rgb(38, 16, 200);
+    color: rgb(84, 75, 153);
     background-color: white;
     cursor: pointer;
     margin-left: 14px;
 }
 .form button:hover{
     color: white;
-    background: rgb(38, 16, 200);
+    background: rgb(84, 75, 153);
 }
 .bxs-folder-plus{
     margin: 0;
@@ -81,7 +92,7 @@ body{
     border-radius: 50px;
 }
 .selectTodo{
-    color: blue;
+    color: rgb(84, 75, 153);
     width: 160px;
     height: 52px;
     padding: 16px;
@@ -90,7 +101,7 @@ body{
     content: "▼";
     position: absolute;
     color: white;
-    background: blue;
+    background: rgb(84, 75, 153);
     top: 0;
     right: 0;
     padding: 18px;
@@ -98,7 +109,7 @@ body{
 }
 .select:hover::after{
     background: white;
-    color: blue;
+    color: rgb(84, 75, 153);
 }
 .bxs-message-square-x{
     color: red;
